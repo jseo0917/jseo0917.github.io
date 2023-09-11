@@ -204,7 +204,6 @@ header .follow a:hover{
 .home .content h3{
     font-size: 4.5rem;
     color:#111;
-
 }
 
 .home .content h3 span{
@@ -218,19 +217,19 @@ header .follow a:hover{
 }
 
 .home .content .text{
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     color:#666;
     padding:.5rem 0;
 }
 
 .home .content .text_2{
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     color:blue;
     padding:.5rem 0;
 }
 
 .home .content .text_metamaterial{
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     color: blue;
     padding:.5rem 0;
 }
