@@ -33,8 +33,8 @@
     <nav class="navbar">
         <a href="#home">Project Lists</a>
         <a href="#home">MetaMaterial Mechanisms</a>
-        <!-- <a href="#about">about</a>
-        <a href="part2.html">Part 2</a> -->
+        <a href="#hair">3D Printed Hair</a>
+        <!-- <a href="part2.html">Part 2</a> -->
     </nav>
 
     <div class="follow">
@@ -65,10 +65,44 @@
           <p class="info">After producing forces</p>
           <img src="https://github.com/jseo0917/jseo0917.github.io/blob/main/r2.png?raw=true" alt="">
       </div>
-
       <!-- <a href="#about" class="btn">about me</a> -->
   </div>
+</section>
 
+<section class="home" id="hair">
+  <div class="content">
+      <h3> 3D <span> Printed Hair </span> </h3>
+       <p class="text">
+      The fundamental technique used to simulate hair with FDM printers involves pushing out small pieces of plastic material and promptly and swiftly repositioning the extruder.
+      This results in a "string" outcome, effectively "sketching" hair that stretches in the direction of motion.</p>
+      <p class="text">Reference: <a href="https://www.gierad.com/assets/3dprintedhair/furbrication.pdf">3D Printed Hair</a></p>
+      <p class="info">Design</p>
+      <p class="text">First, we can find a desired 3D model from the <a href="https://www.thingiverse.com/" class="text_2">Thingiverse</a>, which will include 3D-printed hair. And then, slice the 3D model using Ultimaker and save it as Gcode.</p>
+      <div class="image">
+          <img src="hair_1.png" alt="">
+      </div>
+
+        <p class="text">You can upload the G-Code using <a href="https://gcode.ws/" class="text_2">G-Code analyzer</a> to see 2D and 3D version of your 3D Model.</p>
+        <div class="image">
+            <img src="gcode.png" alt="">
+            <img src="gcode_2.png" alt="">
+        </div>
+        <p class="text">Using the 2D view, locate the position where you want to add hairs.</p>
+
+
+        <p class="text">By modifying G-code, you can generate the hair like below. The green lines are the hair generated with the G-code modification.</p>
+        <div class="image">
+            <img src="gcode_3.png" alt="">
+            <img src="gcode_4.png" alt="">
+        </div>
+
+      <p class="info">Result</p>
+      <div class="image">
+          <p class="info">After we print it with a 3D printer, we have the figure with hair on its head.</p>
+          <img src="seal.png" alt="">        
+      </div>
+      <!-- <a href="#about" class="btn">about me</a>
+  </div>
 </section>
 
 <script src="js/script.js"></script>

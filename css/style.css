@@ -161,7 +161,11 @@ header .follow a:hover{
 }
 
 .home .image img{
-    width:50%;
+    width:40%;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 10px;
+
 }
 
 .home .content{
