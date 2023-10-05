@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- Reference  -->
+<!-- https://www.youtube.com/watch?v=QtOzUABE1Z4&t=1063s (Mr. Web Designer) -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Fabrication Studio</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+
+<div id="menu-bars" class="fas fa-bars"></div>
+
+<!-- header section starts  -->
+
+<header>
+
+    <a href="#" class="logo"> <span>Jung Hoon</span> Seo </a>
+
+    <nav class="navbar">
+        <a href="../Components/index.html">Project Lists</a>
+        <a href="../Components/index.html">MetaMaterial Mechanisms</a>
+        <a href="../Components/3DModeling.html">3D Modeling</a>
+        <a href="../Components/hair.html">3D Printed Hair</a>
+        <a href="../Components/kerfMechanism.html">Kerf Mechanism</a>
+        <!-- <a href="part2.html">Part 2</a> -->
+    </nav>
+
+    <div class="follow">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-github"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/jung-hoon-seo-5ab813178/" class="fab fa-linkedin"></a>
+    </div>
+
+</header>
+
+<section class="home" id="hair">
+  <div class="content">
+      <h3> 3D <span> Printed Hair </span> </h3>
+       <p class="text">
+      The fundamental technique used to simulate hair with FDM printers involves pushing out small pieces of plastic material and promptly and swiftly repositioning the extruder.
+      This results in a "string" outcome, effectively "sketching" hair that stretches in the direction of motion.</p>
+      <p class="text">Reference: <a href="https://www.gierad.com/assets/3dprintedhair/furbrication.pdf">3D Printed Hair</a></p>
+      <p class="info">Design</p>
+      <p class="text">First, we can find a desired 3D model from the <a href="https://www.thingiverse.com/" class="text_2">Thingiverse</a>, which will include 3D-printed hair. And then, slice the 3D model using Ultimaker and save it as Gcode.</p>
+      <div class="image">
+          <img src="https://github.com/jseo0917/jseo0917.github.io/blob/main/hair_1.png?raw=true" alt="">
+      </div>
+
+        <p class="text">You can upload the G-Code using <a href="https://gcode.ws/" class="text_2">G-Code analyzer</a> to see 2D and 3D version of your 3D Model.</p>
+        <div class="image">
+            <img src="https://github.com/jseo0917/jseo0917.github.io/blob/main/gcode.png?raw=true" alt="">
+            <img src="https://github.com/jseo0917/jseo0917.github.io/blob/main/gcode_2.png?raw=true" alt="">
+        </div>
+        <p class="text">Using the 2D view, locate the position where you want to add hairs.</p>
+
+
+        <p class="text">By modifying G-code, you can generate the hair like below. The green lines are the hair generated with the G-code modification.</p>
+        <div class="image">
+            <img src="https://github.com/jseo0917/jseo0917.github.io/blob/main/gcode_3.png?raw=true" alt="">
+            <img src="https://github.com/jseo0917/jseo0917.github.io/blob/main/gcode_4.png?raw=true" alt="">
+        </div>
+
+      <p class="info">Result</p>
+      <div class="image">
+          <p class="info">After we print it with a 3D printer, we have the figure with hair on its head.</p>
+          <img src="https://github.com/jseo0917/jseo0917.github.io/blob/main/seal.png?raw=true" alt="">
+      </div>
+      <!-- <a href="#about" class="btn">about me</a>
+  </div>
+</section>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
