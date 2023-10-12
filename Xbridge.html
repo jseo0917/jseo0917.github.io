@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- Reference  -->
+<!-- https://www.youtube.com/watch?v=QtOzUABE1Z4&t=1063s (Mr. Web Designer) -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Fabrication Studio</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div id="menu-bars" class="fas fa-bars"></div>
+
+<!-- header section starts  -->
+
+<header>
+
+    <a href="#" class="logo"> <span>Jung Hoon</span> Seo </a>
+
+    <nav class="navbar">
+        <a href="index.html">Project Lists</a>
+        <a href="index.html">MetaMaterial Mechanisms</a>
+        <a href="3DModeling.html">3D Modeling</a>
+        <a href="hair.html">3D Printed Hair</a>
+        <a href="kerfMechanism.html">Kerf Mechanism</a>
+        <a href="Xbridge.html">X-bridge</a>
+        <!-- <a href="part2.html">Part 2</a> -->
+    </nav>
+
+    <div class="follow">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-github"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/jung-hoon-seo-5ab813178/" class="fab fa-linkedin"></a>
+    </div>
+
+</header>
+
+<section class="home" id="hair">
+  <div class="content">
+      <h3> X-<span>Bridge</span> </h3>
+       <p class="text">
+      X-Bridge, a software developed by <a href="https://dl.acm.org/doi/10.1145/3526113.3545710">Sum at el.</a>
+       empowers novice users to craft customizable bridges capable of enhancing the deformable and physical characteristics of 3D printed objects.
+      By constructing a bridge-like structure, it can undergo various shape alterations without the need for additional post-processing, assembly, or support prerequisites.
+      The images below illustrate how the application of the bridge structure can influence the movement of the objects.</p>
+
+      <div class="image" style= margin-bottom:20px>
+          <img src="images/xb_1.png" alt="">
+          <img src="images/xb_2.png" alt="">
+          <p>Reference: <a href="https://dl.acm.org/doi/10.1145/3526113.3545710">X-Bridges: Designing Tunable Bridges to Enrich 3D Printed Objects' Deformation and Stiffness</a></p>
+      </div>
+      <p class="info">Design</p>
+      <p class="text">
+        In this project, we endeavored to replicate bridge-like objects in order to achieve the bending of the objects using Fusion 360.</p>
+      <div class="image">
+          <img src="images/xb_3.png" alt="">
+          <img src="images/xb_4.png" alt="">
+      </div>
+
+      <p class="info">Result</p>
+      <p class="text">While the shapes resemble those presented in the paper, the bridges proved to be too weak, possibly due to excessive density.
+        Consequently, they were unable to withstand bending. In certain edge cases, a minimal extrusion amount resulted in a weakened bridge structure.</p>
+      <div class="image">
+          <img src="images/xb_5.png" alt="">
+          <img src="images/xb_6.png" alt="">
+      </div>
+      <p class="info">Future Work</p>
+      <p class="text">We may need to consider extrusion rate and printing speed for the future work so that the bridges are strong and flexible enought to enable bending.</p>
+      <!-- <a href="#about" class="btn">about me</a>
+  </div>
+</section>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
