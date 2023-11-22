@@ -243,8 +243,9 @@ section > h2 {
 }
 
 .portfolio__item-image {
-    height: 250px;
+    height: 260px;
     border-radius: 1.5rem;
+    
     overflow: hidden;        
 }
 
@@ -257,8 +258,8 @@ section > h2 {
 
 .portfolio__item h4 {
     /* margin: 1.2rem 0 2rem; */
-    margin-top: 3rem;
-    margin-bottom: 2rem;
+    /* margin-top: 3rem; */
+    /* margin-bottom: 2rem; */
     color: #ffffff;
 }
 
